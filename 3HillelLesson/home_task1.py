@@ -9,6 +9,9 @@ elif y == "-":
 elif y == "*":
     print(x * z)
 elif y == "/":
-    print(x / z)
+    if z == 0:
+        print("Помилка: дільник не може дорівнювати нулю!")
+    else:
+        print(x / z)
 else:
     print("Помилка: перевірте данні!")

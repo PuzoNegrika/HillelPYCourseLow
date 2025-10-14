@@ -229,7 +229,7 @@ list(range(0, -10, -1)) # [0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
 import random
 my_list = []
 # Не найоптимальніший варіант рішення
-for i in range(random.randint(6, 15)):
+for i in range(random.randint(6, 15)): # 6 - старт, 15 - стоп. Вибирає рандом число від 6 до 15
     my_list.append(random.randint(1, 1000))
 print(my_list) # 10 рандомних чисел (включно 6 і 15) від 1 до 1000
 

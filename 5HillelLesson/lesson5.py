@@ -259,7 +259,6 @@ print(my_string.find('e', 20))  # виведе: -1
 
 # isalpha() перевіряє, чи рядок складається лише з літер
 my_string = "Beautiful is better than ugly"
-
 # є символи, які не є літерами (пробіл) !!!
 print(my_string.isalpha()) # виведе:  False
 my_string = "Beautiful"
